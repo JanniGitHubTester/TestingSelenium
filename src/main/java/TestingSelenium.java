@@ -19,6 +19,6 @@ public class TestingSelenium {
         handyversicherung.click();
         WebElement auswahl =wait.until(ExpectedConditions.elementToBeClickable((By.cssSelector(".btn.btn-primaer"))));
         auswahl.click();
-
+        System.out.println("Test erfolgreich beendet!");
     }
 }
